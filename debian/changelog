@@ -2,7 +2,7 @@ folder-thumbnailer (1.0.0-1ubuntu8) bionic; urgency=medium
 
   * Updated makefile.
 
- -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Wed, 24 Apr 2019 00:34:14 +0600
+ -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Wed, 24 Apr 2019 00:35:56 +0600
 
 folder-thumbnailer (1.0.0-1ubuntu7) tessa; urgency=medium
 
