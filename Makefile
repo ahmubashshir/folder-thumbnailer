@@ -16,10 +16,11 @@ endif
 BINDIR := $(PREFIX)/bin
 LIBDIR := $(PREFIX)/lib
 DATADIR := $(PREFIX)/share
+DIST :=$(shell lsb_release -c|tr -d '[:blank:]'|cut -d: -f2)
 deb:
 	@echo "Building Debian Packages"
 	@echo "->Generating Changelog from commit log"
-	@gbp dch -c -R -D $(lsb_release -c|tr -d '[:blank:]'|cut -d: -f2)
+	@gbp dch -c -R -D $(DIST)
 	@echo "->Started Building packages"
 	@gbp buildpackage --git-tag --git-retag --git-sign-tags
 install:
