@@ -1,3 +1,9 @@
+folder-thumbnailer (1.0.0-1ubuntu7) tessa; urgency=medium
+
+  * Added manpage.
+
+ -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Wed, 24 Apr 2019 00:19:39 +0600
+
 folder-thumbnailer (1.0.0-1ubuntu6) bionic; urgency=medium
 
   * modified debian/copyright
