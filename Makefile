@@ -17,6 +17,7 @@ BINDIR := $(PREFIX)/bin
 LIBDIR := $(PREFIX)/lib
 DATADIR := $(PREFIX)/share
 DIST :=$(shell lsb_release -c|tr -d '[:blank:]'|cut -d: -f2)
+all: install
 deb:
 	@echo "Building Debian Packages"
 	@echo "->Generating Changelog from commit log"
