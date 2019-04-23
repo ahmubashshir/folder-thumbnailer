@@ -1,0 +1,6 @@
+[Thumbnailer Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Folder Thumbnailer
+MimeType=inode/directory;
+Exec=/usr/bin/folder-thumbnailer %s %i %o %u
