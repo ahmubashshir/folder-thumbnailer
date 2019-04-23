@@ -1,3 +1,9 @@
+folder-thumbnailer (1.0.1ubuntu5) bionic; urgency=medium
+
+  *modified folder-thumbnailer and folder.thumbnailer
+
+ -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Wed, 24 Apr 2019 01:11:07 +0600
+
 folder-thumbnailer (1.0.1ubuntu4) bionic; urgency=medium
 
   * modified control
