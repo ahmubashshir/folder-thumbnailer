@@ -1,3 +1,9 @@
+folder-thumbnailer (1.0.0-1ubuntu3) tessa; urgency=medium
+
+  * Moved to native source format.
+
+ -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Tue, 23 Apr 2019 23:05:17 +0600
+
 folder-thumbnailer (1.0.0-1ubuntu2) tessa; urgency=medium
 
   * Updated makefile.
