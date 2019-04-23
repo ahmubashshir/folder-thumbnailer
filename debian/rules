@@ -2,7 +2,6 @@
 build:
 	make
 clean:
-	make clean
-	rm -rf debian/.debhelper debian/3ds-utils debian/3ds-utils.substvars debian/files
+	rm -rf debian/.debhelper debian/folder-thumbnailer debian/folder-thumbnailer.substvars debian/files
 %:
 	dh $@
