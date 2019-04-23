@@ -1,8 +1,8 @@
 ifneq ($(DESTDIR),)
-	PREFIX=$(DESTDIR)/usr
+	prefix:=$(DESTDIR)/usr
 else
-	ifeq ($(PREFIX),)
-		PREFIX :=/usr/local
+	ifeq ($(prefix),)
+		prefix :=/usr/local
 	endif
 endif
 ifneq ($(DESTDIR),)
@@ -13,11 +13,12 @@ endif
 ifeq ($(INSTALL),)
 	INSTALL=install
 endif
-BINDIR := $(PREFIX)/bin
-LIBDIR := $(PREFIX)/lib
-DATADIR := $(PREFIX)/share
+BINDIR := $(prefix)/bin
+LIBDIR := $(prefix)/lib
+DATADIR := $(prefix)/share
 DIST :=$(shell lsb_release -c|tr -d '[:blank:]'|cut -d: -f2)
-all: install
+all:
+	@echo "Built."
 deb:
 	@echo "Building Debian Packages"
 	@echo "->Generating Changelog from commit log"
