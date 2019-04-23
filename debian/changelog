@@ -1,3 +1,9 @@
+folder-thumbnailer (1.0.1ubuntu1) bionic; urgency=medium
+
+  * modified debian/control,debian/copyright.
+
+ -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Wed, 24 Apr 2019 00:41:55 +0600
+
 folder-thumbnailer (1.0.1) bionic; urgency=medium
 
   * modified debian/control
