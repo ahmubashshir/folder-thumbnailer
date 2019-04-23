@@ -9,6 +9,7 @@ ifeq ($(INSTALL),)
 	INSTALL=install
 endif
 DIST :=$(shell lsb_release -c|tr -d '[:blank:]'|cut -d: -f2)
+version:=
 ifneq ($(version),)
 	version = -N $(version)
 endif
