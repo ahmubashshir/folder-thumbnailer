@@ -1,0 +1,5 @@
+.debhelper
+folder-thumbnailer
+*.substvars
+files
+.debhelper

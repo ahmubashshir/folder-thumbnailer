@@ -1,0 +1,8 @@
+folder-thumbnailer (1.0.0) bionic; urgency=medium
+
+  * 
+  * Initial commit
+  * Debianized
+  * .gitignore modification
+
+ -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Tue, 23 Apr 2019 22:43:55 +0600

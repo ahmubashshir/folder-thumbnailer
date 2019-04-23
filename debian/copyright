@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: folder-thumbnailer
+Upstream-Contact: Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>
+Source: https://github.com/ahmubashshir/folder-thumbnailer
+
+Files: *
+Copyright: 2018 Ahmad Hasan Mubashshir
+License: GPL-2+
