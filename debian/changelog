@@ -1,3 +1,9 @@
+folder-thumbnailer (1.0.0-1ubuntu4) tessa; urgency=medium
+
+  * modified rules.
+
+ -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Tue, 23 Apr 2019 23:07:04 +0600
+
 folder-thumbnailer (1.0.0-1ubuntu3) tessa; urgency=medium
 
   * Moved to native source format.
