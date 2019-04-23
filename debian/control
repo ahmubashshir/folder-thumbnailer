@@ -9,7 +9,7 @@ Section: utils
 Package: folder-thumbnailer
 Section: utils
 Priority: optional
-Architecture:any
+Architecture:all
 Depends: ${misc:Depends},tumbler,imagemagick|graphicsmagick-imagemagick-compat,bash ( >= 3 )
 Recommends: thunar ( >=1.8.4 )
 Homepage: http://github.com/ahmubashshir/folder-thumbnailer
