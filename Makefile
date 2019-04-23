@@ -9,12 +9,15 @@ ifeq ($(INSTALL),)
 	INSTALL=install
 endif
 DIST :=$(shell lsb_release -c|tr -d '[:blank:]'|cut -d: -f2)
+ifneq ($(version),)
+	version = -N $(version)
+endif
 all:
 	@echo "Run \`make install\` to install."
 deb:
 	@echo "Building Debian Packages"
 	@echo "->Generating Changelog from commit log"
-	@gbp dch -c -R -D $(DIST)
+	@gbp dch -c -R -D $(DIST) $(version)
 	@echo "->Started Building packages"
 	@gbp buildpackage --git-tag --git-retag --git-sign-tags
 ifeq ($(DESTDIR),)
