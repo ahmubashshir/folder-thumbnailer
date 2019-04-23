@@ -17,11 +17,16 @@ deb:
 	@gbp dch -c -R -D $(DIST)
 	@echo "->Started Building packages"
 	@gbp buildpackage --git-tag --git-retag --git-sign-tags
+ifeq ($(DESTDIR),)
 install:
 	$(INSTALL) -m 755 -D folder-thumbnailer $(prefix)/bin/folder-thumbnailer
 	$(INSTALL) -m 644 -D folder.thumbnailer $(prefix)/share/thumbnailers/folder.thumbnailer
 	$(INSTALL) -m 644 -D folder-thumbnailer.1 $(prefix)/share/man/man1/folder-thumbnailer.1
 	@gzip $(prefix)/share/man/man1/folder-thumbnailer.1
-	ifeq ($(DESTDIR),)
-		mandb
-	endif
+	mandb			
+endif
+install:
+	$(INSTALL) -m 755 -D folder-thumbnailer $(prefix)/bin/folder-thumbnailer
+	$(INSTALL) -m 644 -D folder.thumbnailer $(prefix)/share/thumbnailers/folder.thumbnailer
+	$(INSTALL) -m 644 -D folder-thumbnailer.1 $(prefix)/share/man/man1/folder-thumbnailer.1
+	@gzip $(prefix)/share/man/man1/folder-thumbnailer.1
