@@ -2,7 +2,6 @@ Source: folder-thumbnailer
 Maintainer: Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>
 Homepage: http://github.com/ahmubashshir/folder-thumbnailer
 Standards-Version: 4.1.4
-Build-Depends: debhelper (>=11)
 Priority: optional
 Section: utils
 
@@ -10,7 +9,7 @@ Package: folder-thumbnailer
 Section: extra
 Priority: optional
 Architecture:any
-Depends: tumbler,graphicsmagick-imagemagick-compat
+Depends: tumbler,imagemagick|graphicsmagick-imagemagick-compat,bash
 Recommends: thunar ( >=1.8.4 )
 Homepage: http://github.com/ahmubashshir/folder-thumbnailer
 Description: Create Thumbnails from folders
