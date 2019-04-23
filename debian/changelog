@@ -1,5 +1,11 @@
 folder-thumbnailer (1.0.1) bionic; urgency=medium
 
+  * modified debian/control
+
+ -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Wed, 24 Apr 2019 00:37:58 +0600
+
+folder-thumbnailer (1.0.1) bionic; urgency=medium
+
   * UNRELEASED
 
  -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Wed, 24 Apr 2019 00:37:41 +0600
