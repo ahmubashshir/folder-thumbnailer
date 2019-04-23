@@ -1,3 +1,9 @@
+folder-thumbnailer (1.0.0-1ubuntu1) tessa; urgency=medium
+
+  * Added makefile.
+
+ -- Ahmad Hasan Mubashshir <ahmubashshir@gmail.com>  Tue, 23 Apr 2019 22:59:37 +0600
+
 folder-thumbnailer (1.0.0) bionic; urgency=medium
 
   * 
